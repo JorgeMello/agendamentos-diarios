@@ -9,7 +9,7 @@ error_reporting(0);
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Department | <?php include('../dist/includes/title.php');?></title>
+    <title>Departamentos | <?php include('../dist/includes/title.php');?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -25,7 +25,7 @@ error_reporting(0);
 	
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition skin-yellow layout-top-nav" onload="myFunction()">
+  <body class="hold-transition skin-blue layout-top-nav" onload="myFunction()">
     <div class="wrapper">
       <?php include('../dist/includes/header.php');?>
       <!-- Full Width Column -->
@@ -47,9 +47,9 @@ error_reporting(0);
 <table class="table table-bordered table-striped" style="margin-right:-10px">
               <thead>
                 <tr>
-                <th>Department Code</th>
-                <th>Department Name</th>
-                <th>Action</th>
+                <th>Código do Departamento</th>
+                <th>Nome do Departamento</th>
+                <th>Ações</th>
                 
                 
                 </tr>
@@ -102,13 +102,13 @@ error_reporting(0);
 					 <div class="col-md-12">
 						 <form method="post" action="department_save.php"> 
 						  <div class="form-group">
-							<label for="date">Add Department Code</label><br>
-								<input type="text" class="form-control" name="code" placeholder="Department Code" required>
+							<label for="date">Adicionar novo Departamento</label><br>
+								<input type="text" class="form-control" name="code" placeholder="Código do Departamento" required>
 								
 						  </div><!-- /.form group -->
 						    <div class="form-group">
-							<label for="date">Department Name</label><br>
-								<input type="text" class="form-control" name="name" placeholder="Department Name" required>
+							<label for="date">Nome do Departamento</label><br>
+								<input type="text" class="form-control" name="name" placeholder="Nome do Departamento" required>
 								
 						  </div><!-- /.form group -->
 					</div>
@@ -118,10 +118,10 @@ error_reporting(0);
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Save
+                        Salvar
                       </button>
 					  <button class="btn btn-lg" id="daterange-btn" type="reset">
-                       Cancel
+                       Cancelar
                       </button>
 					  
 					  
@@ -134,14 +134,14 @@ error_reporting(0);
 					 <div class="col-md-12">
 						  <form method="post" action="department_update.php">
 						  <div class="form-group">
-							<label for="date">Update <br> Department Code</label><br>
+							<label for="date">Atualizar <br> Departamento</label><br>
 								<input type="hidden" class="form-control" id="id" name="id" value="<?php echo $_REQUEST['id'];?>" readonly>
-								<input type="text" class="form-control" id="class" name="code" value="<?php echo $_REQUEST['code'];?>" placeholder="Department Code" required>
+								<input type="text" class="form-control" id="class" name="code" value="<?php echo $_REQUEST['code'];?>" placeholder="Código do Departamento" required>
 						  </div><!-- /.form group -->
 						  <div class="form-group">
-							<label for="date">Department Name</label><br>
+							<label for="date">Nome do Departamento</label><br>
 								
-								<input type="text" class="form-control" id="class" name="name" value="<?php echo $_REQUEST['name'];?>" placeholder="Department Name" required>
+								<input type="text" class="form-control" id="class" name="name" value="<?php echo $_REQUEST['name'];?>" placeholder="Nome do Departamento" required>
 						  </div><!-- /.form group -->
 					</div>
 				  </div>	
@@ -150,7 +150,7 @@ error_reporting(0);
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Update
+                        Atualizar
                       </button>
 					  
 					  </form>
