@@ -127,7 +127,7 @@
 					       <li class="">
                     <!-- Menu Toggle Button -->
                    <a href="settings.php" style="color:#fff;" class="dropdown-toggle">
-                      <i class="glyphicon glyphicon-cog text-red"></i>Configurações
+                      <i class="glyphicon glyphicon-cog text-red"></i> Configurações
                       				
                     </a>
                   </li>
@@ -135,7 +135,7 @@
 				  <li class="">
                     <!-- Menu Toggle Button -->
                     <a href="profile.php" class="dropdown-toggle">
-                      <i class="glyphicon glyphicon-user text-orange"></i>
+                      <i class="glyphicon glyphicon-user text-orange"></i> &nbsp;
                       <?php echo $_SESSION['name'];?>
                     </a>
                   </li>

@@ -22,7 +22,7 @@ endif;?>
 	<script src="../dist/js/jquery.min.js"></script>
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition skin-yellow layout-top-nav" onload="myFunction()">
+  <body class="hold-transition skin-blue layout-top-nav" onload="myFunction()">
     <div class="wrapper">
       <?php include('../dist/includes/header.php');?>
       <!-- Full Width Column -->
@@ -40,11 +40,11 @@ endif;?>
               		<h4>Imprimir o Agendamento da Classe
               		<a href="#searcht" data-target="#searcht" data-toggle="modal" class="dropdown-toggle btn btn-primary">
                      
-                      Professor				
+                      Professores				
                     </a>
                    <a href="#searchclass" data-target="#searchclass" data-toggle="modal" class="dropdown-toggle btn btn-success">
                      
-                      Classe / Matéria				
+                      Localização				
                     </a>
                   
                    <a href="#searchroom" data-target="#searchroom" data-toggle="modal" class="dropdown-toggle btn btn-warning">
@@ -235,13 +235,13 @@ endif;?>
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span></button>
-                <h4 class="modal-title">Search Faculty Schedule</h4>
+                <h4 class="modal-title">Procurando Professores</h4>
               </div>
               <div class="modal-body">
 			  <form class="form-horizontal" method="post" action="faculty_sched.php" target="_blank">
                 
 				<div class="form-group">
-					<label class="control-label col-lg-2" for="name">Faculty</label>
+					<label class="control-label col-lg-2" for="name">Professores</label>
 					<div class="col-lg-10">
 					<select class="select2" name="faculty" style="width:90%!important" required>
 								  <?php 
@@ -260,8 +260,8 @@ endif;?>
 				
               </div><hr>
               <div class="modal-footer">
-				<button type="submit" name="search" class="btn btn-primary">Display Schedule</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="submit" name="search" class="btn btn-primary">Mostrar Agenda</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
               </div>
 			  </form>
             </div>
@@ -276,13 +276,13 @@ endif;?>
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span></button>
-                <h4 class="modal-title">Search Class Schedule</h4>
+                <h4 class="modal-title">Procurar Localização</h4>
               </div>
               <div class="modal-body">
 			  <form class="form-horizontal" method="post" action="class_sched.php" target="_blank">
                 
 				<div class="form-group">
-					<label class="control-label col-lg-2" for="name">Class</label>
+					<label class="control-label col-lg-2" for="name">Sala</label>
 					<div class="col-lg-10">
 					<select class="select2" name="class" style="width:90%!important" required>
 								  <?php 
@@ -301,8 +301,8 @@ endif;?>
 				
               </div><hr>
               <div class="modal-footer">
-				<button type="submit" name="search" class="btn btn-primary">Display Schedule</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="submit" name="search" class="btn btn-primary">Mostar Agenda</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
               </div>
 			  </form>
             </div>
@@ -317,13 +317,13 @@ endif;?>
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span></button>
-                <h4 class="modal-title">Search Room Schedule</h4>
+                <h4 class="modal-title">Procurar Localização</h4>
               </div>
               <div class="modal-body">
 			  <form class="form-horizontal" method="post" action="room_sched.php" target="_blank">
                 
 				<div class="form-group">
-					<label class="control-label col-lg-2" for="name">Room</label>
+					<label class="control-label col-lg-2" for="name">Sala</label>
 					<div class="col-lg-10">
 					<select class="select2" name="room" style="width:90%!important" required>
 								  <?php 
@@ -342,8 +342,8 @@ endif;?>
 				
               </div><hr>
               <div class="modal-footer">
-				<button type="submit" name="search" class="btn btn-primary">Display Schedule</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="submit" name="search" class="btn btn-primary">Mostrar Agenda</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
               </div>
 			  </form>
             </div>
