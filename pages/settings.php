@@ -9,7 +9,7 @@ error_reporting(0);
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Settings | <?php include('../dist/includes/title.php');?></title>
+    <title>Configurações | <?php include('../dist/includes/title.php');?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -25,7 +25,7 @@ error_reporting(0);
 	
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition skin-yellow layout-top-nav" onload="myFunction()">
+  <body class="hold-transition skin-blue layout-top-nav" onload="myFunction()">
     <div class="wrapper">
       <?php include('../dist/includes/header.php');?>
       <!-- Full Width Column -->
@@ -46,11 +46,11 @@ error_reporting(0);
 						<table class="table table-bordered table-striped" style="margin-right:-10px">
               <thead>
                 <tr>
-                <th>Term</th>
-                <th>Semester</th>
-                <th>School Year</th>
+                <th>Termos</th>
+                <th>Semestre</th>
+                <th>Nível</th>
                 <th>Status</th>
-                <th>Action</th>
+                <th>Ações</th>
                 
                 
                 </tr>
@@ -108,14 +108,14 @@ error_reporting(0);
 					
 				  <div class="row">
 					 <div class="col-md-12">
-						  <h3>Add Settings</h3>
+						  <h3>Adicionar Configurações</h3>
 						  <form method="post" action="settings_save.php">
 						  <div class="form-group">
 							<label for="date">Semester</label><br>
 								<select class="form-control select2" style="width: 100%;" name="sem" required>
-									<option>1st</option>
-									<option>2nd</option>
-									<option>Summer</option>
+									<option>1°</option>
+									<option>2°</option>
+									<option>Férias</option>
 								</select>
 						  </div><!-- /.form group -->
 						  <div class="form-group">
@@ -138,10 +138,10 @@ error_reporting(0);
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Save
+                        Salvar
                       </button>
 					  <button class="btn btn-lg" id="daterange-btn" type="reset">
-                       Cancel
+                       Cancelar
                       </button>
 					  
 					  
@@ -149,12 +149,12 @@ error_reporting(0);
                   </div><!-- /.form group --><hr>
 				</form>	
         <form method="post" action="term.php">
-              <h3>Set Term</h3>
+              <h3>Configurações dos Termos</h3>
               <div class="form-group">
-                  <label for="date">Term</label><br>
+                  <label for="date">Nível</label><br>
                     <select class="form-control select2" style="width: 100%;" name="term" required>
-                      <option>Midterm</option>
-                      <option>Endterm</option>
+                      <option>Iniciante</option>
+                      <option>Intermediário</option>
                     </select>
                   </div><!-- /.form group -->
                    <div class="form-group">
