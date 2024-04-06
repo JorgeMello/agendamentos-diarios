@@ -10,7 +10,7 @@ endif;
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Class | <?php include('../dist/includes/title.php');?></title>
+    <title>Salas | <?php include('../dist/includes/title.php');?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -26,7 +26,7 @@ endif;
 	
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition skin-yellow layout-top-nav" onload="myFunction()">
+  <body class="hold-transition skin-blue layout-top-nav" onload="myFunction()">
     <div class="wrapper">
       <?php include('../dist/includes/header.php');?>
       <!-- Full Width Column -->
@@ -47,8 +47,8 @@ endif;
 						<table id="example1" class="table table-bordered table-striped" style="margin-right:-10px">
               <thead>
                 <tr>
-                <th>Class</th>
-                <th>Action</th>
+                <th>Salas</th>
+                <th>Ações</th>
                 
                 
                 </tr>
@@ -99,7 +99,7 @@ endif;
 					 <div class="col-md-12">
 						  
 						  <div class="form-group">
-							<label for="date">Add Class</label><br>
+							<label for="date">Adicionar Sala</label><br>
 								<input type="text" class="form-control" name="class" placeholder="Class Name" required>
 								
 						  </div><!-- /.form group -->
@@ -110,10 +110,10 @@ endif;
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-block btn-primary" id="daterange-btn" name="save" type="submit">
-                        Save
+                        Salvar
                       </button>
 					  <button class="btn btn-lg btn-block" id="daterange-btn" type="reset">
-                       Cancel
+                       Cancelar
                       </button>
 					  
 					  
@@ -129,7 +129,7 @@ endif;
 					 <div class="col-md-12">
 						  <form method="post" action="class_update.php">
 						  <div class="form-group">
-							<label for="date">Update Class</label><br>
+							<label for="date">Atualizar Sala</label><br>
 								<input type="hidden" class="form-control" id="id" name="id" value="<?php echo $_REQUEST['id'];?>" placeholder="Class ID" readonly>
 								<input type="text" class="form-control" id="class" name="class" value="<?php echo $_REQUEST['cys'];?>" placeholder="Class Name" required>
 						  </div><!-- /.form group -->
@@ -140,7 +140,7 @@ endif;
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-block btn-primary" id="daterange-btn" name="save" type="submit">
-                        Update
+                        Atualizar
                       </button>
 					  
 					  </form>
