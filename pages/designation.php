@@ -9,7 +9,7 @@ error_reporting(0);
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Designation | <?php include('../dist/includes/title.php');?></title>
+    <title>Designados | <?php include('../dist/includes/title.php');?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -25,7 +25,7 @@ error_reporting(0);
 	
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition skin-yellow layout-top-nav" onload="myFunction()">
+  <body class="hold-transition skin-blue layout-top-nav" onload="myFunction()">
     <div class="wrapper">
       <?php include('../dist/includes/header.php');?>
       <!-- Full Width Column -->
@@ -46,8 +46,8 @@ error_reporting(0);
 						<table id="example1" class="table table-bordered table-striped" style="margin-right:-10px">
               <thead>
                 <tr>
-                <th>Designation</th>
-                <th>Action</th>
+                <th>Designação</th>
+                <th>Ações</th>
                 
                 
                 </tr>
@@ -98,7 +98,7 @@ error_reporting(0);
 					 <div class="col-md-12">
 						  <form method="post" action="designation_save.php">
 						  <div class="form-group">
-							<label for="date">Add Designation</label><br>
+							<label for="date">Adicionar Designação</label><br>
 								<input type="text" class="form-control" name="designation" placeholder="Designation" required>
 								
 						  </div><!-- /.form group -->
@@ -109,10 +109,10 @@ error_reporting(0);
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Save
+                        Salvar
                       </button>
 					  <button class="btn btn-lg " id="daterange-btn" type="reset">
-                       Cancel
+                       Cancelar
                       </button>
 					  
 					  
@@ -125,7 +125,7 @@ error_reporting(0);
 					 <div class="col-md-12">
 						  <form method="post" action="designation_update.php">
 						  <div class="form-group">
-							<label for="date">Update Designation</label><br>
+							<label for="date">Alterar Designação</label><br>
 								<input type="hidden" class="form-control" id="id" name="id" value="<?php echo $_REQUEST['id'];?>" readonly>
 								<input type="text" class="form-control" id="class" name="designation" value="<?php echo $_REQUEST['designation'];?>" placeholder="Designation" required>
 						  </div><!-- /.form group -->
@@ -136,7 +136,7 @@ error_reporting(0);
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Update
+                        Atualizar
                       </button>
 					  
 					  </form>
