@@ -14,19 +14,19 @@
                   <!-- Tasks Menu -->
                  <li class="">
                     <!-- Menu Toggle Button -->
-                   <a href="home.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-star-empty"></i> Class Schedule</a>
+                   <a href="home.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-star-empty"></i> Agendamento das Aulas</a>
                   </li>
                   <!-- Tasks Menu -->
                   <!-- Tasks Menu -->
                  <li class="">
                     <!-- Menu Toggle Button -->
-                   <a href="exam.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-list-alt"></i> Exam Schedule</a>
+                   <a href="exam.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-list-alt"></i> Agendamento de Exames</a>
                   </li>
                   <!-- Tasks Menu -->
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-file"></i> Entry
+                      <i class="glyphicon glyphicon-file"></i> Gerenciamento
                       
                     </a>
                     <ul class="dropdown-menu">
@@ -35,30 +35,30 @@
                         <ul class="menu">
 						  <li><!-- start notification -->
                             <a href="class.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Class
+                              <i class="glyphicon glyphicon-user text-green"></i> Localização
                             </a>
                           </li><!-- end notification -->
 						 
                           <li><!-- start notification -->
                             <a href="room.php">
-                              <i class="glyphicon glyphicon-scale text-green"></i> Room
+                              <i class="glyphicon glyphicon-scale text-green"></i> Sala
                             </a>
                           </li><!-- end notification -->
 						
 						  <li><!-- start notification -->
                             <a href="subject.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Subject
+                              <i class="glyphicon glyphicon-user text-green"></i> Assunto
                             </a>
                           </li><!-- end notification -->
 						  
 						            <li><!-- start notification -->
                             <a href="teacher.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Teacher
+                              <i class="glyphicon glyphicon-user text-green"></i> Professores
                             </a>
                           </li><!-- end notification -->
 						              <li><!-- start notification -->
                             <a href="signatories.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Signatories
+                              <i class="glyphicon glyphicon-user text-green"></i> Alunos
                             </a>
                           </li><!-- end notification -->
                         </ul>
@@ -70,7 +70,7 @@
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-wrench"></i> Maintenance
+                      <i class="glyphicon glyphicon-wrench"></i> Manutenções
                       
                     </a>
                     <ul class="dropdown-menu">
@@ -80,41 +80,41 @@
 						  
 						  <li><!-- start notification -->
                             <a href="department.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Department
+                              <i class="glyphicon glyphicon-user text-green"></i> Departamento
                             </a>
                           </li><!-- end notification -->
 						  <li><!-- start notification -->
                             <a href="designation.php">
-                              <i class="glyphicon glyphicon-cutlery text-green"></i> Designation
+                              <i class="glyphicon glyphicon-cutlery text-green"></i> Designados
                             </a>
                           </li><!-- end notification -->
               <li><!-- start notification -->
                             <a href="program.php">
-                              <i class="glyphicon glyphicon-cutlery text-green"></i> Program
+                              <i class="glyphicon glyphicon-cutlery text-green"></i> Programas
                             </a>
                           </li><!-- end notification -->
 						 
 						  <li><!-- start notification -->
                             <a href="rank.php">
-                              <i class="glyphicon glyphicon-send text-green"></i> Rank
+                              <i class="glyphicon glyphicon-send text-green"></i> Classificação
                             </a>
                           </li><!-- end notification -->
                          
 						  <li><!-- start notification -->
                             <a href="salut.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> Salutation
+                              <i class="glyphicon glyphicon-user text-green"></i> Saudação
                             </a>
                           </li><!-- end notification -->
 						  
 						  <li><!-- start notification -->
                             <a href="sy.php">
-                              <i class="glyphicon glyphicon-user text-green"></i> School Year
+                              <i class="glyphicon glyphicon-user text-green"></i> Tipo de Curso
                             </a>
                           </li><!-- end notification -->
 						  
 						  <li><!-- start notification -->
                             <a href="time.php">
-                              <i class="glyphicon glyphicon-calendar text-green"></i> Time
+                              <i class="glyphicon glyphicon-calendar text-green"></i> Horário
                             </a>
                           </li><!-- end notification -->
 						
@@ -127,7 +127,7 @@
 					       <li class="">
                     <!-- Menu Toggle Button -->
                    <a href="settings.php" style="color:#fff;" class="dropdown-toggle">
-                      <i class="glyphicon glyphicon-cog text-red"></i>Settings
+                      <i class="glyphicon glyphicon-cog text-red"></i>Configurações
                       				
                     </a>
                   </li>
