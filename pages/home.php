@@ -7,7 +7,7 @@ endif;?>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home | <?php include('../dist/includes/title.php');?></title>
+    <title>Administração | <?php include('../dist/includes/title.php');?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -37,19 +37,19 @@ endif;?>
 	      <div class="col-md-9">
               <div class="box box-warning">
               	<div style="text-align: center">
-              		<h4>Print Class Schedule
+              		<h4>Imprimir o Agendamento da Classe
               		<a href="#searcht" data-target="#searcht" data-toggle="modal" class="dropdown-toggle btn btn-primary">
                      
-                      Teacher				
+                      Professor				
                     </a>
                    <a href="#searchclass" data-target="#searchclass" data-toggle="modal" class="dropdown-toggle btn btn-success">
                      
-                      Class				
+                      Classe / Matéria				
                     </a>
                   
                    <a href="#searchroom" data-target="#searchroom" data-toggle="modal" class="dropdown-toggle btn btn-warning">
                      
-                      Room				
+                      Sala				
                     </a>
                     </h4>
                 </div> 
