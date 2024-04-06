@@ -60,7 +60,7 @@ endif;?>
 							<table class="table table-bordered table-striped" style="margin-right:-10px">
 							<thead>
 							  <tr>
-								<th>Time</th>
+								<th>Horário</th>
 								<th>M</th>
 								<th>W</th>
 								<th>F</th>
@@ -92,7 +92,7 @@ endif;?>
 			<table class="table table-bordered table-striped">
 								<thead>
 								  <tr>
-									<th>Time</th>
+									<th>Horário</th>
 									<th>T</th>
 									<th>TH</th>
 									
@@ -137,7 +137,7 @@ endif;?>
 				  <div class="row">
 					 <div class="col-md-12">
 						  <div class="form-group">
-							<label for="date">Teacher</label>
+							<label for="date">Professor</label>
 							
 								<select class="form-control select2" name="teacher" required>
 								  <?php 
@@ -152,7 +152,7 @@ endif;?>
 							
 						  </div><!-- /.form group -->
 						  <div class="form-group">
-							<label for="date">Subject</label>
+							<label for="date">Matéria</label>
 							
 								<select class="form-control select2" name="subject" required>
 								  <?php 
@@ -167,7 +167,7 @@ endif;?>
 							
 						  </div><!-- /.form group -->
 						  <div class="form-group">
-							<label for="date">Course, Yr & Section</label>
+							<label for="date">Localização</label>
 							<select class="form-control select2" name="cys" required>
 								  <?php 
 									$query2=mysqli_query($con,"select * from cys order by cys")or die(mysqli_error($con));
@@ -180,7 +180,7 @@ endif;?>
 								</select>	
 						  </div><!-- /.form group -->
 						  <div class="form-group">
-							<label for="date">Room</label>
+							<label for="date">Sala</label>
 							<select class="form-control select2" name="room" required>
 								  <?php 
 									$query2=mysqli_query($con,"select * from room order by room")or die(mysqli_error($con));
@@ -193,7 +193,7 @@ endif;?>
 								</select>	
 						  </div><!-- /.form group -->
 						  <div class="form-group">
-							<label for="date">Remarks</label><br>
+							<label for="date">Observações</label><br>
 								<textarea name="remarks" cols="30" placeholder="enclose remarks with parenthesis()"></textarea>
 								
 						  </div><!-- /.form group -->
@@ -207,9 +207,9 @@ endif;?>
                   <div class="form-group">
                     
                       <button class="btn btn-lg btn-primary" id="daterange-btn" name="save" type="submit">
-                        Save
+                        Salvar
                       </button>
-					  <button class="uncheck btn btn-lg btn-success" type="reset">Uncheck All</button>
+					  <button class="uncheck btn btn-lg btn-success" type="reset">Desfazer</button>
 					  
 					  
                    </div>
